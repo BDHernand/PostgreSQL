@@ -2,7 +2,6 @@ import PackageDescription
 
 let package = Package(
 	name: "PostgreSQL",
-	pkgConfig: "libpq",
 	providers: [
 		.Apt("pq")
 	],	
